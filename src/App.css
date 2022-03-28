@@ -1,0 +1,28 @@
+.app {
+    width: 500px;
+    margin: 100px auto;
+    padding: 20px;
+    border: 2px solid #a0905f;
+}
+h1 {
+    margin: 0 auto 20px;
+    text-align: center;
+}
+input {
+    width: 100%;
+    margin-bottom: 20px;
+    height: 30px;
+}
+button {
+    height: 30px;
+    display: block;
+    margin: auto;
+    background: aquamarine;
+    border: 1px solid #2b6f56;
+    padding: 0 15px;
+    cursor: pointer;
+}
+button:disabled {
+    background: rgba(127, 255, 212, 0.13);
+    border: 1px solid rgba(43, 111, 86, 0.25);
+}
